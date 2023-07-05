@@ -19,7 +19,7 @@ from matplotlib.collections import LineCollection
 
 from tcr_utils import ClonesAndCounts, ClonesAndPvals
 from TcellRepertoire import TcellRepertoire
-from RepertoireTimeSeries import RepertoireTimeSeries
+from CloneTrack import CloneTrack
 
 def plot_detection_limit(ax, xmin = None, ymin = None, detection_limit_type = 'patch'):
     
